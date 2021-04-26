@@ -31,11 +31,11 @@ class Quiz {
   play(){
     background("yellow");
     fill("black");
-    textSize(20);
-    text("Result of the Quiz",350,0);
+    textSize(30);
+    text("Result of the Quiz",350,50);
     Contestant.getPlayerInfo();
 
-    if(allContestants==!undefined){
+    if(allContestants!==undefined){
       var displayAnswers = 230;
       fill("Blue");
       textSize(20);
